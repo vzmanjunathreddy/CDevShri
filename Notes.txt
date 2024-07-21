@@ -170,13 +170,73 @@ we swapped values of different address
 we did not swap values present in same address
 
 
+// Arrays:
+
+//Data structure:
+
+Data structure means the way the data is organized in the memory
+
+Space complexity
+Time Complexity
+
+Linear Data Structure: Arrays 
+			--Sequentially continuous memory location
+
+			Contiguous memory location 
+Non Linear Data structure : 
+
+
+
+
+
+Array is a data structure which stores the similar data items at Contiguous memory location
+
+==> int (size of 4 bytes) ,float , double , char
+
+Syntax: datatype arrayName [size];
+
+int marks[10]={10,20,30};
+int marks[]={10,20,30};
+
+marks[9]=122;// Index out of bounds
+
+
+Data-Type:
+
+1. Primitive Dataype *(int ,char, float, double)
+2. Derived datatype : datatype that is derived from another type
+    ex: int array[100] char names[100], Structure, Unions
+3. Every array starts with index 0
+
+// Initilization of arrays 
+// last elememet is size-1 ==> 10-1 ==> arry[9]
+
+marks[0]=100;
+marks[1]=101
+marks[2]=102;
+
+Disadvantages:
+Fixed sized
+
+
+Two Dimensional arrays: 
+
+type nameofanarrays[rows][cols]
+
+char names[noOfStrings][lengthofeachString];
+
+char names[3][15]={"ShriPoorna","Rohit sharma","Varnaaz"};
+
+
+// input 5 values inside the array and find out largest element and smallest one
+// input 5 values add two duplicate values print those duplicates
+// pass array of marks to the function and function should return sum and based on the sum you need to calculate the ave in the main function
+
 
 
 
 
    
-
-
 
 
 
