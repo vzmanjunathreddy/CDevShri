@@ -17,6 +17,7 @@ int main(){
 
     printf("enter the total marks achieved by the Student \n");
     scanf("%d",&totalMarks);
+    
     printf("\n Total Marks are %d",totalMarks);
         if(totalMarks>=900){
             printf("You have secured A+ grade");

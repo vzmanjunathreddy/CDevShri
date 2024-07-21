@@ -10,9 +10,8 @@ void main(){
     {
 
         //sumofNnaturalNumbers=sumofNnaturalNumbers+i;
-
         sumofNnaturalNumbers+=i;
-        
+
     }
 
     printf("sum of firstNnaturalNumber is %d",sumofNnaturalNumbers);
@@ -22,3 +21,5 @@ void main(){
 
 // print sum of first n even numbers ==> n is the input
 // print n prime numbers and disply the  sum of first n prime numbers ==> n is the input
+
+//

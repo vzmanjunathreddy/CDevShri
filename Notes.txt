@@ -1,0 +1,198 @@
+Environment setup for C to run in VS Code:
+================================
+1. VS Code --IDE for developing C Code
+2. Install the respective extenstions 
+     i). C/C++ for VS Code from Microsoft
+     ii). C/C++ Extensions for VS Code from Microsoft
+     iii). Code Runners 
+3. Language Compiler for C 
+  https://sourceforge.net/projects/mingw 
+
+Variable:caseSensitive
+
+char myName="Shri";
+char MyName="Shri";
+
+Structure Product {
+
+char productName;
+int quantity;
+float price;
+int discount=10;
+}
+
+IF condition :
+
+IF condition and Else ===> else block is going to execute with out checking the condition
+
+IF condition and else if and else if 
+Take six subject 
+Calculate the grade of Stundent based on the marks
+Accept marks from each subject 
+total marks =1000
+marks 900 ==> A+ grade
+Marks 800 to 900 ==> A grade
+Marks 600 to 800==> B+ grade
+Marks 400 to 600 ==> B grade
+Marks <400== Fail
+
+
+//Calculate age of Person based input of provided by user
+
+Infant 0 to 2 years
+youngster 2 to 12 years
+teenager 12 to 18
+Adults 18 to 40
+Middle aged 40 to 60
+Old age 60 and above
+
+
+
+// Switch Case
+
+Accept two input numbers firstNumber ,secondNumber ,result
+
+Provide four operands Add,Subsctraction, Mulitiply, Division
+
+add
+result =firstNumber + secondNumber
+
+Subsctraction
+
+result =firstNumber - secondNumber
+
+
+
+
+===================
+
+Function : A block of code which will be executed when we invoke
+
+ We don't need to inject complexity inside single function we will modularize as much small as possible
+
+
+Print data () --separate function
+
+Write the database ()--separate function
+
+Send an email()-- Separate function
+
+int main()
+
+code for printing the data
+writing to file/database
+sending an email
+
+
+1. Function with out return value and with out parameter/s
+2. Function with return value and with out parameters
+3. Function with out return value but with parameters
+4. Function with return value and with parameters
+
+
+Types of Functions 
+  1) User defined functions()
+  2) System defined functions() strlen(), printf(),main()
+
+
+1 User defined are of two types
+
+      1) call by value ( passing value to a function)
+      2) call by reference(pass the address of variable)
+
+Variable named location for an memory address
+int x=10
+
+main ()
+{
+
+int x=10
+abc(x);
+x=10;
+
+abc(int x)
+{
+x=20;
+return x;
+}
+Pointers :
+
+
+a=10
+b=20
+
+temp=a;
+a=b;
+b=temp;
+
+with out using temp variables how to swap two numbers 
+
+b=10
+a=20
+
+Call by Value:
+
+passing the value to the invoked function
+variable is named location to the memory address
+
+int x=10==>123123
+int y=20==>23444
+
+type *nameofVariable
+int *z=&x;
+
+
+
+&==> address of operator
+
+
+
+Variable : named memory location
+
+int x ;
+---> compiler is going to allocate some to memory address to the variable
+x=10--> memory location
+
+&--> denotes the address of the variable
+
+x => gives the value of x
+&x=> gives the address of variable x
+
+//pointer ==> variable which stores the address of anonther varaible
+int *y;// declaration of pointer is with *
+
+y=&x;
+y contains the address of x;
+
+
+we swapped values of different address
+
+we did not swap values present in same address
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
