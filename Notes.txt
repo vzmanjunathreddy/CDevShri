@@ -236,6 +236,63 @@ char names[3][15]={"ShriPoorna","Rohit sharma","Varnaaz"};
 
 
 
+Multidemensional array:
+
+int arr[2][2] =  1 2  
+                 2 3 
+
+
+int arr[3][2] =  1 2  
+                 2 3 
+	               4 6
+
+int arr[2][3] =  1 2 4 
+                 2 3 5
+	         
+   
+Add two Matrixes 
+
+int arr[2][2] =  1 2      1 2    
+                 2 3      2 3 
+
+                 2 4
+                 4 6
+	
+Sub two Matrixes 
+
+		 6 2      4 2    
+     2 3      2 3 
+
+
+               2 0
+               0 0
+
+Multiply two Matrix
+
+		 6 2      4 2    6*4+2*2 6*2+2*3  28 18
+     2 3      2 3    2*4+3*2 2*2+3*3  14 13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
