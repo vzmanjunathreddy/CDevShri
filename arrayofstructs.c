@@ -4,7 +4,7 @@
 struct Book
 {
    char title[20];
-   char author[30];
+   char author[30]; 
    double price;
    int numberofpages;
 };
