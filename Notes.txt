@@ -274,6 +274,193 @@ Multiply two Matrix
 
 
 
+Structure --> is derived datatype or user defined data which is used to group elements of different datatypes
+memory is not allocated continiously
+
+
+Array : group of similar datatypes , where memory is allocated contiguously(continuous memory)
+
+int arr[10]--> percentage of 10 students
+
+char[20] Name
+int Id
+char[20] College
+char[20] State
+float Percentage
+
+
+struct nameofstruct
+{
+
+}
+
+struct Book{
+
+char title[20]; 1
+char author[20];1
+double price 8
+int pages; 4
+};
+
+14 memory 
+
+
+struct Book mybook={"Shri Poorna","My Discoveries",450.34,200};
+
+Struct is will not have contiguous memory locations
+
+
+
+Union is also a derived or user defined datatype (a dt which is being defined based on other types)
+
+=> Union is also same struct which can store or group  multiple datatypes
+=> In Union same memory location is being used for all datatypes
+=> In Union at any point of time only one data member can store the value
+
+
+File :
+
+    Text ASCII charecters  .txt, ,dat
+
+    Binary formats (01010101) .bin
+
+File *  --> used to connect to your file and c program
+
+File *fp;
+
+Open ==> fp=fopen("filename","modeofoperations")
+r==> only reads the file 
+w==> it will create a new file
+
+Modes of operations on file 
+   Read (Read the file if the file exists r==> no new file will be created )
+   Write (first time it will check if the file is already exists if so then it will overwrite the data
+          else it create new file with name and write the data)
+   Apend (append to end of the filepointer);
+   
+Close
+ 
+
+Operations
+
+fprintf ==> Used to write the data to file
+
+ fprint(fp,what data to write);
+
+fscanf ==> Used to read the input from file
+
+
+To read and write data from binary file 
+
+address where you want to write the data to the disk
+size of the data to be written to the disk
+number of such type of data
+file pointer
+
+fread(address,size,numberofdata,filepointer)
+fwrite(address,size,numbersData,filepointer)
+r ==> only read
+w ==> write only
+w+==> read and write
+rb
+wb  ==> write the contents to the file if files doesn't exist will be created
+ab
+r+ (read and write)==> if the file doesn't exist it returns null
+rb+ (read and write)==> if the file doesn't exist it returns null
+
+Data 1Million records 
+
+
+Data Structures: How efficiently we Organize the data for storage and retrieval.
+
+Space Complexity:
+Time Complexity: 3 mins 180 Seconds
+
+Customer place order 
+
+too much of optimistic 
+arry[1110]=10; 1100Bytes
+
+Pessimistic 
+Array[10]=20 items
+
+Dynamic Data Structure: 
+
+Characteristics:
+================
+Where data can grow and shrink dynamically
+Provides faster insertions and deletion
+traversal would be easy
+
+Advantages:
+===========
+
+Efficient Memory management
+Provides faster insertions and deletion
+Easily we can dds
+
+Disadvantages:
+Random access of elements is inefficient. 
+
+Stuct Node{
+int data;
+Struct node *next;
+};
+
+
+Head =NULL
+
+head=NewNode
+Newnode=Null
+
+1. Create new struct node
+2. Allocate the memory
+3. Add the value or insert data into the node
+4. Point the node to the next node or assign it to null if it is first one or last to null.
+
+
+struct node *head =NULL;
+
+// check if Linked is Empty 
+
+if(head==NULL){
+
+Linked List is empty
+
+struct node* node1;
+node1= (struct node*)malloc(sizeof(struct node));
+node1->data=10;
+node1->Next=null
+Head=nodel1;
+
+}
+
+else{
+
+struct node *ptr=head;
+
+while(ptr->next!=null)
+{
+
+ptr=ptr->next;
+
+}
+
+struct node* node2;
+node1= (struct node*)malloc(sizeof(struct node));
+node1->data=10;
+ptr->next=node2
+node2->next=null;
+
+malloc which is to allocate memory
+ 
+
+
+
+
+
+
+
 
 
 
